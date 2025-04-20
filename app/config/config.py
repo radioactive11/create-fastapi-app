@@ -9,3 +9,4 @@ load_dotenv()
 config: dict = os.environ
 
 POSTGRES_URI = config["POSTGRES_URI"]
+REDIS_URI = config["REDIS_URI"]
